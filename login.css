@@ -70,6 +70,10 @@ input{
     font-size: 125%;
 }
 
+.fg-pswd{
+    margin: 2%;
+}
+
 .Login{
     background-color: #BFCC94;
     border: none;
@@ -78,4 +82,48 @@ input{
     padding: 1% 3%;
     color: #0D1821;
     display: flex;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1140px) {
+    .form-div{
+        width: 60vw;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .form-div{
+        width: 70vw;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .form-div{
+        width: 80vw;
+    }
+}
+@media only screen and (max-width: 620px) {
+    .form-div{
+        width: 85vw;
+    }
+    label, input {
+        font-size: 100%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .form-div{
+        width: 90vw;
+    }
+    label, input {
+        font-size: 90%;
+    }
+    .Login{
+        font-size: 80%;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .form-div{
+        width: 95vw;
+    }
+    label, input {
+        font-size: 80%;
+    }
 }
