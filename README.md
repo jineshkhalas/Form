@@ -11,4 +11,4 @@
 -This Form is made using HTML, CSS and JavaScript.
 
 ## Live Demo
-[Click here to visit the Form Page.](https://jineshkhalas.github.io/Form-/)
+[Click here to visit the Form Page.](https://jineshkhalas.github.io/Form/)
